@@ -99,7 +99,7 @@ if ($conn->connect_error) {
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="/placement/">Training Procedure</a></li>
               <li><a class="dropdown-item" href="/placement/recruiters.php">Our Recruiters</a></li>
-              <li><a class="dropdown-item" href="/placements/records.php">Placement Records</a></li>
+              <li><a class="dropdown-item" href="/placement/records.php">Placement Records</a></li>
               <li><a class="dropdown-item" href="/placement/contact.php">Contact</a></li>
             </ul>
           </li>
@@ -138,6 +138,9 @@ if ($conn->connect_error) {
           </li>
           <li class="nav-item">
             <a class="nav-link <?php if($_SERVER['PHP_SELF'] == '/contact.php'){ echo 'active'; } ?>" aria-current="page" href="/contact.php">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link <?php if($_SERVER['PHP_SELF'] == '/events&news.php'){ echo 'active'; } ?>" aria-current="page" href="/events&news.php">Events&News</a>
           </li>
         </ul>
       </div>

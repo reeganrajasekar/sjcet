@@ -17,13 +17,13 @@
       <img src="/static/images/2.jpg" loading="lazy" class="d-block w-100" alt="Slide_2">
     </div>
     <div class="carousel-item">
-      <img src="/static/images/1.jpg" loading="lazy" class="d-block w-100" alt="Slide_3">
+      <img src="/static/images/3.jpg" loading="lazy" class="d-block w-100" alt="Slide_3">
     </div>
     <div class="carousel-item">
-      <img src="/static/images/2.jpg" loading="lazy" class="d-block w-100" alt="Slide_4">
+      <img src="/static/images/4.jpg" loading="lazy" class="d-block w-100" alt="Slide_4">
     </div>
     <div class="carousel-item">
-      <img src="/static/images/1.jpg" loading="lazy" class="d-block w-100" alt="Slide_5">
+      <img src="/static/images/5.jpg" loading="lazy" class="d-block w-100" alt="Slide_5">
     </div>
   </div>
 </div>

@@ -2,7 +2,7 @@
 <main class="container my-4">
     <div class="row">
         <section class="col-sm-12 col-md-12 col-lg-9 mb-3">
-            <article class="border rounded p-3">
+            <article class="border rounded p-3" data-aos="fade-up" data-aos-once="true">
                 <h1 class="sjcet-title">MESSAGE FROM THE CHAIRMAN</h1>
                 <div class="text-center my-4">
                     <img src="/static/images/founder.jpg" alt="Founder Img" class="w-50 border rounded text-center p-2 shadow mb-3">
@@ -19,7 +19,7 @@
                 </p>
             </article>
         </section>
-        <section class="col-sm-12 col-md-12 col-lg-3 ">
+        <section class="col-sm-12 col-md-12 col-lg-3 " data-aos="fade-up" data-aos-once="true">
             <ul id="sjcet_sub_menu" class="sjcet_sub_menu border rounded">
                 <li><a class="sub-item" href="/about/">About SJCET</a></li>
                 <li><a class="sub-item" href="/about/dft_group.php">DFT Group</a></li>

@@ -1,5 +1,5 @@
 <?php require("./layout/Header.php") ?>
-<main class="container my-4">
+<main class="container my-4" data-aos="fade-up" data-aos-once="true">
     <h1 class="sjcet-title">CONTACT US</h1>
     <section class="container my-4">
         <p class="sjcet-text">

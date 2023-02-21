@@ -1,7 +1,7 @@
 <?php require("../layout/Header.php") ?>
 <main class="container my-4">
     <div class="row">
-        <section class="col-sm-12 col-md-12 col-lg-9 mb-3">
+        <section class="col-sm-12 col-md-12 col-lg-9 mb-3" data-aos="fade-up" data-aos-once="true">
             <article class="border rounded p-3">
                 <h1 class="sjcet-title">NSS (National Service Scheme)</h1>
                 <p class="container sjcet-text mt-2">
@@ -74,14 +74,14 @@
                 <div class="card mb-3" style="border: none;">
                     <div class="row no-gutters">
                         <div class="col-md-4">
-                            <img src="/static/images/placement.jpeg" class="card-img shadow p-1 border" alt="...">
+                            <img src="/static/images/nss.jpg" class="card-img shadow p-1 border" alt="...">
                             </div>
                             <div class="col-md-8">
                             <div class="card-body">
-                                <p class="card-text sjcet-name"><b>Mr. P. Sathis Kumar</b> <small class="text-muted">B.E., M.Tech.,(Ph.D.),</small></p>
-                                <p class="card-text sjcet-content text-muted">Training & Placement Officer</p>
-                                <p class="card-text sjcet-name">+91 9488581589</p>
-                                <p class="card-text sjcet-name">sjcetplacement@gmail.com</p>
+                                <p class="card-text sjcet-name"><b>Mr. M. SureshKumar</b> <small class="text-muted">B.M., (Ph.D.),</small></p>
+                                <p class="card-text sjcet-content text-muted">NSS Co-ordinator</p>
+                                <p class="card-text sjcet-name">+91 9003968583</p>
+                                <p class="card-text sjcet-name">nss@sjcettnj.edu.in</p>
                             </div>
                         </div>
                     </div>
@@ -119,7 +119,7 @@
                 </div>
             </article>
         </section>
-        <section class="col-sm-12 col-md-12 col-lg-3 ">
+        <section class="col-sm-12 col-md-12 col-lg-3 " data-aos="fade-up" data-aos-once="true">
             <ul id="sjcet_sub_menu" class="sjcet_sub_menu border rounded">
                 <li><a class="sub-item" href="/co_curricular/">EDC</a></li>
                 <li><a class="sub-item" href="/co_curricular/iic.php">IIC</a></li>

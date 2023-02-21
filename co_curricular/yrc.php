@@ -1,7 +1,7 @@
 <?php require("../layout/Header.php") ?>
 <main class="container my-4">
     <div class="row">
-        <section class="col-sm-12 col-md-12 col-lg-9 mb-3">
+        <section class="col-sm-12 col-md-12 col-lg-9 mb-3" data-aos="fade-up" data-aos-once="true">
             <article class="border rounded p-3">
                 <h1 class="sjcet-title">YRC (Youth Red Cross)</h1>
                 <p class="container sjcet-text mt-2">
@@ -106,7 +106,7 @@
                 </div>
             </article>
         </section>
-        <section class="col-sm-12 col-md-12 col-lg-3 ">
+        <section class="col-sm-12 col-md-12 col-lg-3 " data-aos="fade-up" data-aos-once="true">
             <ul id="sjcet_sub_menu" class="sjcet_sub_menu border rounded">
                 <li><a class="sub-item" href="/co_curricular/">EDC</a></li>
                 <li><a class="sub-item" href="/co_curricular/iic.php">IIC</a></li>

@@ -137,10 +137,10 @@ if ($conn->connect_error) {
             <a class="nav-link <?php if($_SERVER['PHP_SELF'] == '/gallery.php'){ echo 'active'; } ?>" aria-current="page" href="/gallery.php">Gallery</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link <?php if($_SERVER['PHP_SELF'] == '/contact.php'){ echo 'active'; } ?>" aria-current="page" href="/contact.php">Contact</a>
+            <a class="nav-link <?php if($_SERVER['PHP_SELF'] == '/events&news.php'){ echo 'active'; } ?>" aria-current="page" href="/events&news.php">Events&News</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link <?php if($_SERVER['PHP_SELF'] == '/events&news.php'){ echo 'active'; } ?>" aria-current="page" href="/events&news.php">Events&News</a>
+            <a class="nav-link <?php if($_SERVER['PHP_SELF'] == '/contact.php'){ echo 'active'; } ?>" aria-current="page" href="/contact.php">Contact</a>
           </li>
         </ul>
       </div>

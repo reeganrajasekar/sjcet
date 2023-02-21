@@ -464,3 +464,12 @@ thead{
   width:100%;
   height:200px;
 }
+.accordion-button{
+  border:1px solid #C2001B !important;
+  color:#C2001B !important;
+  background-color: #f9f9f9 !important;
+}
+
+.accordion-button:focus{
+  box-shadow: none !important;
+}

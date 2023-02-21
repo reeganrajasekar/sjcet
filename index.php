@@ -40,19 +40,19 @@
     <div class="row equal-cols gx-2 mx-1">
       <article id="event" class="col-sm-12 col-md-12 col-lg-8 mb-2 h-100" data-aos="zoom-in" data-aos-once="true">
         <div class="news">
-          <h1 class="sjcet-title">Latest Events @ CSE-SJCET</h1>
+          <h1 class="sjcet-title">Latest Events @ SJCET</h1>
           <section class="row equal-cols gx-2 mx-1">
             <?php
-            $sql = "SELECT * FROM event WHERE dept='".$department."' order by event_date DESC LIMIT 2";
+            $sql = "SELECT * FROM event order by event_date DESC LIMIT 2";
             $result = $conn->query($sql);
             if ($result->num_rows > 0) {
                 while($row = $result->fetch_assoc()) {
             ?>
             <article class="col-sm-12 col-md-6 col-lg-4 mb-1">
               <div title="<?php echo $row['title']?>" class="card w-100" data-aos="fade-in" data-aos-once="true" >
-                <img loading="lazy" src="/static/uploads/event/image/<?php echo $row['img']?>" class="card-img-top" alt="Event Image">
+                <img loading="lazy" src="https://<?php echo(strtolower($row["dept"])) ?>.sjcettnj.edu.in/static/uploads/event/image/<?php echo $row['img']?>" class="card-img-top" alt="Event Image">
                 <div class="card-body text-center">
-                  <span class="sjcet-text"><?php echo substr($row['title'],0,30).'...'?></span><br>
+                <a style="text-decoration:none;color:#444" href="https://<?php echo(strtolower($row["dept"])) ?>.sjcettnj.edu.in/static/uploads/event/<?php echo $row['pdf']?>" target="_blank"><span class="sjcet-text"><?php echo substr($row['title'],0,30).'...'?></span></a><br>
                   <span class="text-muted">
                     <script>
                       document.write(moment("<?php echo($row["event_date"])?>").format('ll'))
@@ -66,18 +66,18 @@
               <p class="sjcet-text">
                 At SJCET, we keep on organising various events and functions from time to time for the welfare of students in terms of technical skill development and personal growth.
               </p>
-              <a class="btn text-center" style="color:#C2001B;border:2px solid #C2001B;border-radius: 15px;;" href="/news&events.php#event">View All Events</a>
+              <a class="btn text-center" style="color:#C2001B;border:2px solid #C2001B;border-radius: 15px;;" href="/events&news.php#event">View All Events</a>
             </article>
           </section>
         </div>
       </article>
       <article class="col-sm-12 col-md-12 col-lg-4 mb-2 h-100" data-aos="zoom-in" data-aos-once="true">
         <div class="news" id="news">
-          <h1 class="sjcet-title">Department News</h1>
+          <h1 class="sjcet-title">SJCET News</h1>
           <div class="holder" id="holder">
             <ul id="ticker01">
               <?php
-              $sql = "SELECT * FROM news WHERE dept='".$department."' order by news_date DESC LIMIT 10";
+              $sql = "SELECT * FROM news order by news_date DESC LIMIT 10";
               $result = $conn->query($sql);
               if ($result->num_rows > 0) {
                   while($row = $result->fetch_assoc()) {
@@ -87,11 +87,11 @@
                   <script>
                     document.write(moment("<?php echo($row["news_date"])?>").format('ll'))
                   </script>
-                - </span><a target="blank" href="/static/uploads/<?php echo $row['pdf']?>"><?php echo $row['title']?></a></li>
+                - </span><a class="sjcet-text" target="blank" href="https://<?php echo(strtolower($row["dept"])) ?>.sjcettnj.edu.in/static/uploads/<?php echo $row['pdf']?>"><?php echo $row['title']?></a></li>
               <?php }} ?>
             </ul>
           </div>
-          <a href="/news&events.php#news" class="" style="float: right;color:#C2001B;text-decoration: underline;">more...</a>
+          <a href="/events&news.php#news" class="btn pt-2 sjcet-text" style="float: right;color:#C2001B;text-decoration: underline;">more...</a>
         </div>
       </article>
     </div>

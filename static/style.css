@@ -470,3 +470,6 @@ thead{
 .accordion-button:focus{
   box-shadow: none !important;
 }
+.table-bold{
+  font-weight: bold;
+}

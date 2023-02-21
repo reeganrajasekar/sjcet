@@ -8,7 +8,7 @@ $imgimageFileType = strtolower(pathinfo($imgtarget_file,PATHINFO_EXTENSION));
 
 
 if($imgimageFileType != "jpg" && $imgimageFileType != "jpeg" && $imgimageFileType != "png") {
-    header("Location: placement/admin/home.php?err=Sorry, Image only jpg or jpeg or png files are allowed.");
+    header("Location: /co_curricular/admin/nss.php?err=Sorry, Image only jpg or jpeg or png files are allowed.");
     die();
 }
 
@@ -18,16 +18,16 @@ $height = $test[1];
 
 if ($width != 300 || $height != 200)
 {
-header("Location: /placement/admin/home.php?err=Image size should be 300px X 200px.");
+header("Location: /co_curricular/admin/nss.php?err=Image size should be 300px X 200px.");
 die();
 }
 
   if (move_uploaded_file($_FILES["img"]["tmp_name"], $imgtarget_file)) {
       $sql = "INSERT INTO club (file,name)
-      VALUES ('$imgfile_name','placement')";
+      VALUES ('$imgfile_name','nss')";
   
       if ($conn->query($sql) === TRUE) {
-          header("Location: /placement/admin/home.php?page=1&msg=Img added Successfully !");
+          header("Location: /co_curricular/admin/nss.php?page=1&msg=Img added Successfully !");
           die();
       } else {
           echo "Error: " . $sql . "<br>";
@@ -36,7 +36,7 @@ die();
       $conn->close();
   
   } else {
-      header("Location: /placement/admin/home.php?page=1&err=Sorry, there was an error uploading your image.");
+      header("Location: /co_curricular/admin/nss.php?page=1&err=Sorry, there was an error uploading your image.");
       die();
   }
 

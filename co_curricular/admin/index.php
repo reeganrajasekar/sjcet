@@ -23,9 +23,9 @@
     }, 5000)
   </script>
   <div  data-aos="zoom-in" class="container" style="margin-top:120px;margin-bottom:100px;width:500px;max-width:100vw;background-color: white;padding:30px 0px;border-radius: 30px;box-shadow: 2px 2px 8px #ccc;">
-    <h1 style="text-align: center;color:#922521"><b>Placement Admin</b></h1>
+    <h1 style="text-align: center;color:#922521"><b>Co_Curricular Admin</b></h1>
     <br>
-    <form style="margin: 0 20%" method="POST" action="/placement/admin/login.php">
+    <form style="margin: 0 20%" method="POST" action="/co_curricular/admin/login.php">
       <div class="form-outline mb-4">
         <label class="form-label" for="form2Example1">Email :</label>
         <input type="email" name="email" class="form-control" required/>

@@ -27,10 +27,22 @@
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 					<li class="nav-item">
-                        <a class="nav-link <?php if($_SERVER['PHP_SELF'] == '/placement/admin/home.php'){ echo 'active'; } ?>" aria-current="page" href="/placement/admin/home.php">Home</a>
+                        <a class="nav-link <?php if($_SERVER['PHP_SELF'] == '/co_curricular/admin/home.php'){ echo 'active'; } ?>" aria-current="page" href="/co_curricular/admin/home.php">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link <?php if($_SERVER['PHP_SELF'] == '/placement/admin/records.php'){ echo 'active'; } ?>" aria-current="page" href="/placement/admin/records.php?page=1">Records</a>
+                        <a class="nav-link <?php if($_SERVER['PHP_SELF'] == '/co_curricular/admin/iic.php'){ echo 'active'; } ?>" aria-current="page" href="/co_curricular/admin/iic.php?page=1">IIC</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link <?php if($_SERVER['PHP_SELF'] == '/co_curricular/admin/nss.php'){ echo 'active'; } ?>" aria-current="page" href="/co_curricular/admin/nss.php?page=1">NSS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link <?php if($_SERVER['PHP_SELF'] == '/co_curricular/admin/rrc.php'){ echo 'active'; } ?>" aria-current="page" href="/co_curricular/admin/rrc.php?page=1">RRC</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link <?php if($_SERVER['PHP_SELF'] == '/co_curricular/admin/yrc.php'){ echo 'active'; } ?>" aria-current="page" href="/co_curricular/admin/yrc.php?page=1">YRC</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link <?php if($_SERVER['PHP_SELF'] == '/co_curricular/admin/rc.php'){ echo 'active'; } ?>" aria-current="page" href="/co_curricular/admin/rc.php?page=1">Rotaract</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" onclick="return confirm('Do you want to Logout?')" href="logout.php">Logout</a>

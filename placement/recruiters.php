@@ -4,7 +4,7 @@
         <section class="col-sm-12 col-md-12 col-lg-9 mb-3">
             <article class="border rounded p-3">
                 <h1 class="sjcet-title mb-4">Our Recruiters</h1>
-                
+                <img src="/static/images/placement.jpg" alt="Placement Img" class="w-100 border shadow p-1 rounded">
             </article>
         </section>
         <section class="col-sm-12 col-md-12 col-lg-3 ">

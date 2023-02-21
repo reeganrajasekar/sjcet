@@ -8,7 +8,7 @@
 </div>
 <div class="container mt-3">
     <div style="display:flex;flex-direction:row;justify-content:space-between">
-        <h2 style="color:#922521;font-weight:600">Gallery</h2>
+        <h2 style="color:#922521;font-weight:600">NSS</h2>
         <button type="button" class="btn btn-primary" style="color:white;background:#922521;font-weight:600" data-bs-toggle="modal" data-bs-target="#myModal">
             Add Img
         </button>
@@ -18,7 +18,7 @@
     <div class="container">
         <div class="row">
         <?php
-        $sql = "SELECT * FROM club WHERE name='placement' order by reg_date DESC";
+        $sql = "SELECT * FROM club WHERE name='nss' order by reg_date DESC";
         $result = $conn->query($sql);
         if ($result->num_rows > 0) {
             while($row = $result->fetch_assoc()) {
@@ -28,7 +28,7 @@
                 <img class="card-img-top" style="height:200px" src="/static/uploads/placement/<?php echo($row['file']) ?>">
                 <div class="card-body" style="overflow: scroll;">
                     <div style="display:flex;flex-direction:row;justify-content:flex-end">
-                        <form action="/placement/admin/delete/img.php" onsubmit="document.getElementById('loader').style.display='block'" method="post">
+                        <form action="/co_curricular/admin/delete/nss.php" onsubmit="document.getElementById('loader').style.display='block'" method="post">
                             <input type="hidden" name="id" value="<?php echo($row["id"]) ?>">
                             <input type="hidden" name="file" value="<?php echo($row["file"]) ?>">
                             <button style="position:absolute;bottom:10px;right:10px;border:none;background:none" onclick="return confirm('Do you want to delete?')">
@@ -65,7 +65,7 @@
             <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
         </div>
         <div class="modal-body">
-            <form action="/placement/admin/create/img.php" onsubmit="document.getElementById('loader').style.display='block'" method="post" enctype="multipart/form-data">
+            <form action="/co_curricular/admin/create/nss.php" onsubmit="document.getElementById('loader').style.display='block'" method="post" enctype="multipart/form-data">
                 <div class="mt-3 mb-3">
                     <label for="img" class="form-label">Image (jpg,jpeg,png) <span style="color:red">*</span>:</label>
                     <input required type="file" accept="image/*" class="form-control" id="img" name="img">

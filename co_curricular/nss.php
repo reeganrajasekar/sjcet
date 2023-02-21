@@ -70,69 +70,44 @@
                         </tbody>
                     </table>
                 </div>
+                <h1 class="sjcet-title mb-2">Contact</h1>
+                <div class="card mb-3" style="border: none;">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="/static/images/placement.jpeg" class="card-img shadow p-1 border" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                            <div class="card-body">
+                                <p class="card-text sjcet-name"><b>Mr. P. Sathis Kumar</b> <small class="text-muted">B.E., M.Tech.,(Ph.D.),</small></p>
+                                <p class="card-text sjcet-content text-muted">Training & Placement Officer</p>
+                                <p class="card-text sjcet-name">+91 9488581589</p>
+                                <p class="card-text sjcet-name">sjcetplacement@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h1 class="sjcet-title mt-4">Recent Activities</h1>
                 <div class="row mt-4 mx-auto my-auto justify-content-center">
                     <div id="recipeCarousel" class="carousel sjcet-slide slide" data-bs-ride="carousel">
                         <div class="carousel-inner sjcet-inner" role="listbox">
+                        <?php
+                        $sql = "SELECT * FROM club WHERE name='nss' order by reg_date ASC LIMIT 6";
+                        $result = $conn->query($sql);
+                        if ($result->num_rows > 0) {
+                            while($row = $result->fetch_assoc()) {
+                        ?>
                             <div class="carousel-item sjcet-carousel-item active">
                                 <div class="col-md-3">
                                     <div class="card">
                                         <div class="card-img">
-                                            <img src="//via.placeholder.com/300x200/ddd" width="100%" class="img-fluid">
+                                            <img src="/static/uploads/placement/<?php echo($row["file"]) ?>" width="100%" class="img-fluid">
                                         </div>
-                                        <div class="card-img-overlay">Slide 1</div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="carousel-item sjcet-carousel-item">
-                                <div class="col-md-3">
-                                    <div class="card">
-                                        <div class="card-img">
-                                            <img src="//via.placeholder.com/300x200/ddd" width="100%" class="img-fluid">
-                                        </div>
-                                        <div class="card-img-overlay">Slide 2</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item sjcet-carousel-item">
-                                <div class="col-md-3">
-                                    <div class="card">
-                                        <div class="card-img">
-                                            <img src="//via.placeholder.com/300x200/ddd" width="100%" class="img-fluid">
-                                        </div>
-                                        <div class="card-img-overlay">Slide 3</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item sjcet-carousel-item">
-                                <div class="col-md-3">
-                                    <div class="card">
-                                        <div class="card-img">
-                                            <img src="//via.placeholder.com/300x200/ddd" width="100%" class="img-fluid">
-                                        </div>
-                                        <div class="card-img-overlay">Slide 4</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item sjcet-carousel-item">
-                                <div class="col-md-3">
-                                    <div class="card">
-                                        <div class="card-img">
-                                            <img src="//via.placeholder.com/300x200/ddd" width="100%" class="img-fluid">
-                                        </div>
-                                        <div class="card-img-overlay">Slide 5</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item sjcet-carousel-item">
-                                <div class="col-md-3">
-                                    <div class="card">
-                                        <div class="card-img">
-                                            <img src="//via.placeholder.com/300x200/ddd" width="100%" class="img-fluid">
-                                        </div>
-                                        <div class="card-img-overlay">Slide 6</div>
-                                    </div>
-                                </div>
-                            </div>
+                        <?php
+                            }}
+                        ?>
                         </div>
                         <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>

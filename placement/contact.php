@@ -7,15 +7,15 @@
                 <div class="card mb-3" style="border: none;">
                     <div class="row no-gutters">
                         <div class="col-md-4">
-                        <img src="/static/images/placement.jpeg" class="card-img shadow p-1" alt="...">
-                        </div>
-                        <div class="col-md-8">
-                        <div class="card-body">
-                            <p class="card-text sjcet-name"><b>Dr. P. Sathis Kumar</b> <small class="text-muted">B.E., M.Tech., Ph.D.,</small></p>
-                            <p class="card-text sjcet-content text-muted">Co-ordinator,Training & Placement</p>
-                            <p class="card-text sjcet-name">+91 9488581589</p>
-                            <p class="card-text sjcet-name">sjcetplacement@gmail.com</p>
-                        </div>
+                            <img src="/static/images/placement.jpeg" class="card-img shadow p-1 border" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                            <div class="card-body">
+                                <p class="card-text sjcet-name"><b>Mr. P. Sathis Kumar</b> <small class="text-muted">B.E., M.Tech.,(Ph.D.),</small></p>
+                                <p class="card-text sjcet-content text-muted">Training & Placement Officer</p>
+                                <p class="card-text sjcet-name">+91 9488581589</p>
+                                <p class="card-text sjcet-name">sjcetplacement@gmail.com</p>
+                            </div>
                         </div>
                     </div>
                 </div>

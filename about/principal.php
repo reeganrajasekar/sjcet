@@ -1,3 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SJCET-TNJ</title>
+  <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/static/style.css">
+  <script src="/static/js/moment.js"></script>
+  <link rel="icon" href="/static/images/favicon.png">
+  <link href="/static/css/aos.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
 <?php require("../layout/Header.php") ?>
 <main class="container my-4">
     <div class="row">
@@ -5,7 +23,7 @@
             <article class="border rounded p-3">
                 <h1 class="sjcet-title">MESSAGE FROM THE PRINCIPAL</h1>
                 <div class="text-center my-4">
-                    <img src="/static/images/principal.jpg" alt="Principal Img" class="w-100 border rounded text-center p-2 shadow mb-3">
+                    <img src="/static/images/principal.jpg" alt="Principal Img" class="w-50 border rounded text-center p-2 shadow mb-3">
                     <p><span style="color:#C2001B;font-size:22px;font-weight:800">Prof. Dr. D. Shanmugasundaram M.E., Ph.D.,</span><br><span class="text-muted">Principal</span></p>
                 </div>
                 <p class="container sjcet-text">
@@ -27,7 +45,7 @@
                 <li><a class="sub-item" href="/about/chairman.php">Chairman</a></li>
                 <li><a class="sub-item active" href="/about/principal.php">Principal</a></li>
                 <li><a class="sub-item" href="/about/governing_council.php">Governing Council</a></li>
-                <li><a class="sub-item" href="/about/mandatory_disclosure.php">Mandatory Disclosure</a></li>
+                <li><a class="sub-item" href="/static/md.pdf" target="_blank">Mandatory Disclosure</a></li>
             </ul>
         </section>
     </div>

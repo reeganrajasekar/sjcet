@@ -1,3 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | SJCET-TNJ</title>
+  <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/static/style.css">
+  <script src="/static/js/moment.js"></script>
+  <link rel="icon" href="/static/images/favicon.png">
+  <link href="/static/css/aos.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
 <?php require("./layout/Header.php") ?>
 <!-- Carousel -->
 <main>
@@ -146,7 +164,7 @@
           &ensp;&ensp;Our Placement Cell is dedicated towards giving students an opportunity to excel in their field of career and also ...
           </p>
           <span style="display: flex;justify-content:right">
-            <a href="#" style="color:#C2001B;border:2px solid #C2001B;border-radius: 15px;" class="btn sjcet-btn" >More</a>
+            <a href="/placement" style="color:#C2001B;border:2px solid #C2001B;border-radius: 15px;" class="btn sjcet-btn" >More</a>
           </span>
         </div>
       </div>
@@ -157,7 +175,7 @@
           &ensp;&ensp;Keeping in view the all-round development of students, the students of SJCET actively organize and participate in ...
           </p>
           <span style="display: flex;justify-content:right">
-            <a href="#" style="color:#C2001B;border:2px solid #C2001B;border-radius: 15px;" class="btn sjcet-btn" >More</a>
+            <a href="co_curricular" style="color:#C2001B;border:2px solid #C2001B;border-radius: 15px;" class="btn sjcet-btn" >More</a>
           </span>
         </div>
       </div>
@@ -168,7 +186,7 @@
           &ensp;&ensp;SJCET aims at achieving student discipline and offers protection to the new entrants from the menace of ragging. I...
           </p>
           <span style="display: flex;justify-content:right">
-            <a href="#" style="color:#C2001B;border:2px solid #C2001B;border-radius: 15px;" class="btn sjcet-btn" >More</a>
+            <a href="/anti_ragging.php" style="color:#C2001B;border:2px solid #C2001B;border-radius: 15px;" class="btn sjcet-btn" >More</a>
           </span>
         </div>
       </div>
@@ -179,7 +197,7 @@
           &ensp;&ensp;The Grievance and Redressal Cell was constituted to probe into the student grievances. The Grievance Redressal Cel...
           </p>
           <span style="display: flex;justify-content:right">
-            <a href="#" style="color:#C2001B;border:2px solid #C2001B;border-radius: 15px;" class="btn sjcet-btn" >More</a>
+            <a href="//forms.gle/mLkVSUCbPyEXGMEfA" style="color:#C2001B;border:2px solid #C2001B;border-radius: 15px;" class="btn sjcet-btn" >More</a>
           </span>
         </div>
       </div>
@@ -189,76 +207,116 @@
 </section>
 
 
-<div class="container-fluid p-4 sjcet-box">
+<div class="p-4 sjcet-box">
     <h2 class="sjcet-title">LIFE @ SJCET</h2>
-    <div class="row mx-auto my-auto justify-content-center">
-        <div id="recipeCarousel" class="carousel sjcet-slide slide" data-bs-ride="carousel">
-            <div class="carousel-inner sjcet-inner" role="listbox">
-                <div class="carousel-item sjcet-carousel-item active">
-                    <div class="col-md-3">
-                        <div class="card">
-                            <div class="card-img">
-                                <img src="//via.placeholder.com/300x200/ddd" width="100%" class="img-fluid">
-                            </div>
-                            <div class="card-img-overlay">Slide 1</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item sjcet-carousel-item">
-                    <div class="col-md-3">
-                        <div class="card">
-                            <div class="card-img">
-                                <img src="//via.placeholder.com/300x200/ddd" width="100%" class="img-fluid">
-                            </div>
-                            <div class="card-img-overlay">Slide 2</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item sjcet-carousel-item">
-                    <div class="col-md-3">
-                        <div class="card">
-                            <div class="card-img">
-                                <img src="//via.placeholder.com/300x200/ddd" width="100%" class="img-fluid">
-                            </div>
-                            <div class="card-img-overlay">Slide 3</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item sjcet-carousel-item">
-                    <div class="col-md-3">
-                        <div class="card">
-                            <div class="card-img">
-                                <img src="//via.placeholder.com/300x200/ddd" width="100%" class="img-fluid">
-                            </div>
-                            <div class="card-img-overlay">Slide 4</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item sjcet-carousel-item">
-                    <div class="col-md-3">
-                        <div class="card">
-                            <div class="card-img">
-                                <img src="//via.placeholder.com/300x200/ddd" width="100%" class="img-fluid">
-                            </div>
-                            <div class="card-img-overlay">Slide 5</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item sjcet-carousel-item">
-                    <div class="col-md-3">
-                        <div class="card">
-                            <div class="card-img">
-                                <img src="//via.placeholder.com/300x200/ddd" width="100%" class="img-fluid">
-                            </div>
-                            <div class="card-img-overlay">Slide 6</div>
-                        </div>
-                    </div>
-                </div>
+    <div class="row gx-5 mx-auto my-auto justify-content-center">
+      <div id="sjcet-slider" class="carousel sjcet-slide slide" data-bs-ride="carousel">
+          <div class="carousel-inner sjcet-inner" role="listbox">
+
+            <div class="carousel-item sjcet-carousel-item active">
+              <div class="col-md-2">
+                  <div class="card">
+                      <div class="card-img">
+                          <img loading="lazy" src="/static/images/life/1.jpg" width="100%" class="img-fluid p-1">
+                      </div>
+                      <div class="card-img-overlay"><span>Alumni Meets</span></div>
+                  </div>
+              </div>
             </div>
-            <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="prev">
+                
+            <div class="carousel-item sjcet-carousel-item">
+              <div class="col-md-2">
+                  <div class="card">
+                      <div class="card-img">
+                          <img loading="lazy" src="/static/images/life/2.jpg" width="100%" class="img-fluid p-1">
+                      </div>
+                      <div class="card-img-overlay"><span>Career Guidance</span></div>
+                  </div>
+              </div>
+            </div>
+
+            <div class="carousel-item sjcet-carousel-item">
+              <div class="col-md-2">
+                  <div class="card">
+                      <div class="card-img">
+                          <img loading="lazy" src="/static/images/life/3.jpg" width="100%" class="img-fluid p-1">
+                      </div>
+                      <div class="card-img-overlay"><span>Awareness Rallies</span></div>
+                  </div>
+              </div>
+            </div>
+
+            <div class="carousel-item sjcet-carousel-item">
+              <div class="col-md-2">
+                  <div class="card">
+                      <div class="card-img">
+                          <img loading="lazy" src="/static/images/life/4.jpg" width="100%" class="img-fluid p-1">
+                      </div>
+                      <div class="card-img-overlay"><span>Sports Meets</span></div>
+                  </div>
+              </div>
+            </div>
+
+            <div class="carousel-item sjcet-carousel-item">
+              <div class="col-md-2">
+                  <div class="card">
+                      <div class="card-img">
+                          <img loading="lazy" src="/static/images/life/5.jpg" width="100%" class="img-fluid p-1">
+                      </div>
+                      <div class="card-img-overlay"><span>Engineers Day</span></div>
+                  </div>
+              </div>
+            </div>
+
+            <div class="carousel-item sjcet-carousel-item">
+              <div class="col-md-2">
+                  <div class="card">
+                      <div class="card-img">
+                          <img loading="lazy" src="/static/images/life/6.jpg" width="100%" class="img-fluid p-1">
+                      </div>
+                      <div class="card-img-overlay"><span>Entrepreneurs Meet</span></div>
+                  </div>
+              </div>
+            </div>
+
+            <div class="carousel-item sjcet-carousel-item">
+              <div class="col-md-2">
+                  <div class="card">
+                      <div class="card-img">
+                          <img loading="lazy" src="/static/images/life/7.jpg" width="100%" class="img-fluid p-1">
+                      </div>
+                      <div class="card-img-overlay"><span>Teachers Day</span></div>
+                  </div>
+              </div>
+            </div>
+
+            <div class="carousel-item sjcet-carousel-item">
+              <div class="col-md-2">
+                  <div class="card">
+                      <div class="card-img">
+                          <img loading="lazy" src="/static/images/life/8.jpg" width="100%" class="img-fluid p-1">
+                      </div>
+                      <div class="card-img-overlay"><span>Culturals Day</span></div>
+                  </div>
+              </div>
+            </div>
+
+            <div class="carousel-item sjcet-carousel-item">
+              <div class="col-md-2">
+                  <div class="card">
+                      <div class="card-img">
+                          <img loading="lazy" src="/static/images/life/9.jpg" width="100%" class="img-fluid p-1">
+                      </div>
+                      <div class="card-img-overlay"><span>Graduation Day</span></div>
+                  </div>
+              </div>
+            </div>
+
+          </div>
+            <a class="carousel-control-prev bg-transparent w-auto" href="#sjcet-slider" role="button" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             </a>
-            <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="next">
+            <a class="carousel-control-next bg-transparent w-auto" href="#sjcet-slider" role="button" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
             </a>
         </div>

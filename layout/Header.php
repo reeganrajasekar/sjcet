@@ -10,33 +10,23 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SJCET-TNJ</title>
-  <link rel="stylesheet" href="/static/css/bootstrap.min.css">
-  <link rel="stylesheet" href="/static/style.css">
-  <script src="/static/js/moment.js"></script>
-  <link rel="icon" href="/static/images/favicon.png">
-  <link href="/static/css/aos.css" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap" rel="stylesheet">
-</head>
 
-<body  >
+<body>
   <header id="header">
-    <span>TNEA CODE - 3456</span>
-    <span>TNEA CODE - 3456</span>
+    <span class="header_link_bar text-center" style="font-weight: 800;font-size:14px"><i class="fa fa-phone-square"></i> +91 9444395284, +91 9150076739</span>
+    <div class="header_link_bar">
+      <a href="https://forms.gle/nfwVCNaVyZFDRfqH6" target="_blank" class="header_link">Apply Online</a>|
+      <a href="//alumni.sjcettnj.edu.in/" class="header_link">Alumni Portal</a>|
+      <a href="//forms.gle/mLkVSUCbPyEXGMEfA" class="header_link">Grievance and Redressal</a>|
+      <a href="/static/md.pdf" target="_blank" class="header_link">Mandatory Disclosure</a>
+    </div>
   </header>
 <!-- Navigation -->
   <nav id="navbar_top" class="w-100 navbar navbar-expand-lg " style="z-index:10000;background:white;box-shadow:1px 1px 2px #aaa;">
     <div class="container-fluid sjcet-nav">
       <a class="navbar-brand" href="http://sjcettnj.edu.in">
-        <img src="/static/images/logo.png" alt="College Logo" class="col-logo">
+        <img src="/static/images/logo.png" alt="College Logo" class="col-logo d-none d-sm-block">
+        <img src="/static/images/mobilelogo.png" alt="College Logo" class="col-logo d-sm-none">
       </a>
       <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span> </span>
@@ -60,7 +50,7 @@ if ($conn->connect_error) {
               <li><a class="dropdown-item" href="/about/chairman.php">Chairman</a></li>
               <li><a class="dropdown-item" href="/about/principal.php">Principal</a></li>
               <li><a class="dropdown-item" href="/about/governing_council.php">Governing Council</a></li>
-              <li><a class="dropdown-item" href="/about/mandatory_disclosure.php">Mandatory Disclosure</a></li>
+              <li><a class="dropdown-item" href="/static/md.pdf" target="_blank">Mandatory Disclosure</a></li>
             </ul>
           </li>
           <li class="nav-item dropdown">
@@ -82,7 +72,7 @@ if ($conn->connect_error) {
               <svg  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16"> <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" fill="gray"></path> </svg>
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" target="_blank" href="#">AI & DS</a></li>
+              <!-- <li><a class="dropdown-item" target="_blank" href="#">AI & DS</a></li> -->
               <li><a class="dropdown-item" target="_blank" href="//cse.sjcettnj.edu.in">CSE</a></li>
               <li><a class="dropdown-item" target="_blank" href="//eee.sjcettnj.edu.in">EEE</a></li>
               <li><a class="dropdown-item" target="_blank" href="//ece.sjcettnj.edu.in">ECE</a></li>
@@ -130,14 +120,14 @@ if ($conn->connect_error) {
               <li><a class="dropdown-item" href="/co_curricular/yrc.php">Youth Red Cross</a></li>
             </ul>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link" aria-current="page" href="#">IQAC</a>
-          </li>
+          </li> -->
           <li class="nav-item">
             <a class="nav-link <?php if($_SERVER['PHP_SELF'] == '/gallery.php'){ echo 'active'; } ?>" aria-current="page" href="/gallery.php">Gallery</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link <?php if($_SERVER['PHP_SELF'] == '/events&news.php'){ echo 'active'; } ?>" aria-current="page" href="/events&news.php">Events&News</a>
+            <a class="nav-link <?php if($_SERVER['PHP_SELF'] == '/events&news.php'){ echo 'active'; } ?>" aria-current="page" href="/events&news.php">News & Events</a>
           </li>
           <li class="nav-item">
             <a class="nav-link <?php if($_SERVER['PHP_SELF'] == '/contact.php'){ echo 'active'; } ?>" aria-current="page" href="/contact.php">Contact</a>

@@ -1,3 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SJCET-TNJ</title>
+  <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/static/style.css">
+  <script src="/static/js/moment.js"></script>
+  <link rel="icon" href="/static/images/favicon.png">
+  <link href="/static/css/aos.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
 <?php require("../layout/Header.php") ?>
 <main class="container my-4">
     <div class="row">
@@ -10,163 +28,175 @@
                             <tr style="text-align:center">
                                 <th scope="col">#</th>
                                 <th scope="col">Name of the Member</th>
-                                <th scope="col">Position</th>
-                                <th scope="col">Category</th>
                             </tr>
                         </thead>
-                        <tbody>
+                        <tbody style="font-size: 14px;">
                             <tr>
                                 <th scope="row">1</th>
-                                <td class="table-bold">
-                                    Rev. Fr. Dr. J. E. Arulraj<br>
-                                    Founder (DMI Foundations) /<br>
-                                    Dr. V. Ramachandran<br>
-                                    C.E.O
+                                <td>
+                                    <span class="table-bold">
+                                        Rev. Fr. Dr. J. E. Arulraj<br>
+                                        Founder (DMI Foundations) /<br>
+                                        Dr. V. Ramachandran<br>
+                                        C.E.O<br>
+                                    </span>
+                                    Chairman, Members of the Management
                                 </td>
-                                <td>Chairman</td>
-                                <td>Members of the Management</td>
                             </tr>
                             <tr>
                                 <th scope="row">2</th>
-                                <td class="table-bold">
-                                    Rev. Sr. S. Gnanaselvam<br>
-                                    Managing Trustee
+                                <td>
+                                    <span class="table-bold">
+                                        Rev. Sr. S. Gnanaselvam<br>
+                                        Managing Trustee<br>
+                                    </span>
+                                    Member, Members of the Management
                                 </td>
-                                <td>Member</td>
-                                <td>Members of the Management</td>
                             </tr>
                             <tr>
                                 <th scope="row">3</th>
-                                <td class="table-bold">
-                                    Dr. M. Suresh<br>
-                                    Director
+                                <td>
+                                    <span class="table-bold" >
+                                        Dr. M. Suresh<br>
+                                        Director<br>
+                                    </span>
+                                    Member, Members of the Management
                                 </td>
-                                <td>Member</td>
-                                <td>Members of the Management</td>
                             </tr>
                             <tr>
                                 <th scope="row">4</th>
-                                <td class="table-bold">
-                                    Dr. M. A. Leo Vijilious<br>
-                                    Director
+                                <td>
+                                    <span class="table-bold" >
+                                        Dr. M. A. Leo Vijilious<br>
+                                        Director<br>
+                                    </span>
+                                    Member, Members of the Management
                                 </td>
-                                <td>Member</td>
-                                <td>Members of the Management</td>
                             </tr>
 
                             <tr>
                                 <th scope="row">5</th>
-                                <td class="table-bold">
-                                    Rev. Sr. S. Xavier Selvi<br>
-                                    In-charge of Higher Education<br>
-                                    DFT Group of Institutions
+                                <td>
+                                    <span class="table-bold">
+                                        Rev. Sr. S. Xavier Selvi<br>
+                                        In-charge of Higher Education<br>
+                                        DFT Group of Institutions<br>
+                                    </span>
+                                    Member, Members of the Management
                                 </td>
-                                <td>Member</td>
-                                <td>Members of the Management</td>
                             </tr>
 
                             <tr>
                                 <th scope="row">6</th>
-                                <td class="table-bold">
-                                    Rev. Sr. J. Arockia Johnsi Rani<br>
-                                    Administrator
+                                <td>
+                                    <span class="table-bold">
+                                        Rev. Sr. J. Arockia Johnsi Rani<br>
+                                        Administrator
+                                    </span>
+                                    Member, Members of the Management
                                 </td>
-                                <td>Member</td>
-                                <td>Members of the Management</td>
                             </tr>
 
                             <tr>
                                 <th scope="row">7</th>
-                                <td class="table-bold">
-                                    Dr. S. Mangairkarasi<br>
-                                    Professor &amp; Head<br>
-                                    Department of Computer Science and Engineering
+                                <td>
+                                    <span class="table-bold">
+                                        Dr. S. Mangairkarasi<br>
+                                        Professor &amp; Head<br>
+                                        Department of Computer Science and Engineering<br>
+                                    </span>
+                                    Member, Teachers of the College
                                 </td>
-                                <td>Member</td>
-                                <td>Teachers of the College</td>
                             </tr>
 
                             <tr>
                                 <th scope="row">8</th>
-                                <td class="table-bold">
-                                    Mr. P. Sathis Kumar<br>
-                                    Assistant Professor<br>
-                                    Department of Mechanical Engineering
+                                <td>
+                                    <span class="table-bold">
+                                        Mr. P. Sathis Kumar<br>
+                                        Assistant Professor<br>
+                                        Department of Mechanical Engineering<br>
+                                    </span>
+                                    Member, Teachers of the College
                                 </td>
-                                <td>Member</td>
-                                <td>Teachers of the College</td>
                             </tr>
 
                             <tr>
                                 <th scope="row">9</th>
-                                <td class="table-bold">
-                                    Dr. B. Ramadoss<br>
-                                    Professor (HAG)<br>
-                                    Department of Computer Application<br> 
-                                    NIT Trichy
+                                <td>
+                                    <span class="table-bold">
+                                        Dr. B. Ramadoss<br>
+                                        Professor (HAG)<br>
+                                        Department of Computer Application<br> 
+                                        NIT Trichy<br>
+                                    </span>
+                                    Member, Educationist – Management Nominee
                                 </td>
-                                <td>Member</td>
-                                <td>Educationist – Management Nominee</td>
                             </tr>
 
                             <tr>
                                 <th scope="row">10</th>
-                                <td class="table-bold">
-                                    Veteran Wing Commander<br>
-                                    Mr. M. Jeyakumar<br>
-                                    Chairman &amp; Managing Director<br>
-                                    nRoot Technologies Pvt. Ltd
-                                    Thanjavur
+                                <td>
+                                    <span class="table-bold">
+                                        Veteran Wing Commander<br>
+                                        Mr. M. Jeyakumar<br>
+                                        Chairman &amp; Managing Director<br>
+                                        nRoot Technologies Pvt. Ltd
+                                        Thanjavur<br>
+                                    </span>
+                                    Member, Industrialist – Management Nominee
                                 </td>
-                                <td>Member</td>
-                                <td>Industrialist – Management Nominee</td>
                             </tr>
 
                             <tr>
                                 <th scope="row">11</th>
-                                <td class="table-bold">
-                                    Regional Officer<br>
-                                    Southern Regional Office, AICTE Chennai
+                                <td>
+                                    <span class="table-bold">
+                                        Regional Officer<br>
+                                        Southern Regional Office, AICTE Chennai<br>
+                                    </span>
+                                    Member, AICTE (Southern Region) Nominee
                                 </td>
-                                <td>Member</td>
-                                <td>AICTE (Southern Region) Nominee</td>
                             </tr>
 
                             <tr>
                                 <th scope="row">12</th>
-                                <td class="table-bold">
-                                    Dr. I. Muthumani<br>
-                                    Professor<br>
-                                    Department of Electronics &amp;<br>
-                                    Communication Engineering<br>
-                                    Government College of Engineering<br>
-                                    Tirunelveli
+                                <td>
+                                    <span class="table-bold">
+                                        Dr. I. Muthumani<br>
+                                        Professor<br>
+                                        Department of Electronics &amp;<br>
+                                        Communication Engineering<br>
+                                        Government College of Engineering<br>
+                                        Tirunelveli<br>
+                                    </span>
+                                    Member, State Government Nominee
                                 </td>
-                                <td>Member</td>
-                                <td>State Government Nominee</td>
                             </tr>
 
                             <tr>
                                 <th scope="row">13</th>
-                                <td class="table-bold">
-                                    Dr. G. Chandramohan<br>
-                                    Professor &amp; Principal<br>
-                                    PSG Institute of Technology and Applied Research
-                                    Avinashi Road, Neelambur<br>
-                                    Sulur, Coimbatore – 641062.
+                                <td>
+                                    <span class="table-bold">
+                                        Dr. G. Chandramohan<br>
+                                        Professor &amp; Principal<br>
+                                        PSG Institute of Technology and Applied Research<br>
+                                        Avinashi Road, Neelambur<br>
+                                        Sulur, Coimbatore – 641062.<br>
+                                    </span>
+                                    Member, University Nominee
                                 </td>
-                                <td>Member</td>
-                                <td>University Nominee</td>
                             </tr>
 
                             <tr>
-                                <th scope="row">13</th>
-                                <td class="table-bold">
-                                    Dr. D. Shanmugasundaram<br>
-                                    Principal
+                                <th scope="row">14</th>
+                                <td>
+                                    <span class="table-bold">
+                                        Dr. D. Shanmugasundaram<br>
+                                        Principal<br>
+                                    </span>
+                                    Member, Principal of the College
                                 </td>
-                                <td>Member</td>
-                                <td>Principal of the College</td>
                             </tr>
                         </tbody>
                     </table>
@@ -181,7 +211,7 @@
                 <li><a class="sub-item" href="/about/chairman.php">Chairman</a></li>
                 <li><a class="sub-item" href="/about/principal.php">Principal</a></li>
                 <li><a class="sub-item active" href="/about/governing_council.php">Governing Council</a></li>
-                <li><a class="sub-item" href="/about/mandatory_disclosure.php">Mandatory Disclosure</a></li>
+                <li><a class="sub-item" href="/static/md.pdf" target="_blank">Mandatory Disclosure</a></li>
             </ul>
         </section>
     </div>

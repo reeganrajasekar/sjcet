@@ -4,7 +4,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SJCET-TNJ</title>
+  <title>DFT Group - St. Joseph's College of Engineering and Technology (SJCET)</title>
+  <meta name="description" content="DMI Foundations Trust (DFT) is a strategic organization established by Rev. Fr. Dr. J. E. Arulraj, the founder of the Religious Congregations of Society of Daughters of Mary Immaculate and Colloborators (DMI), Society of Missionaries of Mary Immaculate (MMI) and Associate Movement International (AMI) to facilitate the strenghtening and development of the Charism and the well being of the Socieities, by sharpening the vision, along with lay colloborators and experts; and the effective management of the Societies by safeguarding, developing, managing and administering the resources which are the patrimony of the Founder, left in the form of investments, deposits, lands and institutions towards Loving God in serving the Poor. ">
+  <meta name="keywords" content="dft group St.Joseph's college of engineering and technology thanjavur , dft group sjcet ">
   <link rel="stylesheet" href="/static/css/bootstrap.min.css">
   <link rel="stylesheet" href="/static/style.css">
   <script src="/static/js/moment.js"></script>

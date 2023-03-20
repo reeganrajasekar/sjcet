@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SJCET-TNJ</title>
+  <title>Admission Contact - St. Joseph's College of Engineering and Technology (SJCET)</title>
   <link rel="stylesheet" href="/static/css/bootstrap.min.css">
   <link rel="stylesheet" href="/static/style.css">
   <script src="/static/js/moment.js"></script>
@@ -24,12 +24,12 @@
                 <h1 class="sjcet-title mb-4">Admission Contact</h1>
                 <div class="card mb-3" style="border: none;">
                     <div class="row no-gutters">
-                        <div class="col-md-4">
-                        <img src="/static/images/admission.jpeg" class="card-img shadow p-1" alt="...">
+                        <div class="col-md-4 text-center">
+                            <img src="/static/images/admission.jpeg" class="w-75 card-img shadow p-1" alt="...">
                         </div>
                         <div class="col-md-8">
                         <div class="card-body">
-                            <p class="card-text sjcet-name"><b>Dr. A. Franklin Alex Joseph</b> <small class="text-muted">M.Tech., Ph.D.,</small></p>
+                            <p class="card-text sjcet-name"><b class="sjcet-main-name">Dr. A. Franklin Alex Joseph</b> <small class="text-muted">M.Tech., Ph.D.,</small></p>
                             <p class="card-text sjcet-text">Admission Coordinator & Associate Professor (EEE)</p>
                             <p class="card-text sjcet-name">+91 93440 75615</p>
                         </div>

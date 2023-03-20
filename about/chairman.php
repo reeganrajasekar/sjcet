@@ -4,7 +4,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SJCET-TNJ</title>
+  <title>Chairman - St. Joseph's College of Engineering and Technology (SJCET)</title>
+  <meta name="description" content="DMI is a union of committed women who have dedicated their lives to serve the poor and the underprivileged unconditionally. Through their services, the DMIs want to create a world where love, peace, equality, justice and brotherhood are ensured for all. The Society of Daughters of Mary Immaculate and Collaborators (DMI) was founded in the year 1984 by Rev.Fr. J.E. Arul Raj OMI, at Keechalam, a remote village in Thiruvallur District, Tamil Nadu, India.">
+  <meta name="keywords" content="Chairman St.Joseph's college of engineering and technology thanjavur , chairman sjcet ">
   <link rel="stylesheet" href="/static/css/bootstrap.min.css">
   <link rel="stylesheet" href="/static/style.css">
   <script src="/static/js/moment.js"></script>
@@ -23,8 +25,8 @@
             <article class="border rounded p-3" data-aos="fade-up" data-aos-once="true">
                 <h1 class="sjcet-title">MESSAGE FROM THE CHAIRMAN</h1>
                 <div class="text-center my-4">
-                    <img src="/static/images/founder.jpg" alt="Founder Img" class="w-50 border rounded text-center p-2 shadow mb-3">
-                    <p><span style="color:#C2001B;font-size:22px;font-weight:800">Rev. Fr. Dr. J. E. Arulraj</span><br><span class="text-muted">Founder & Chairman - DMI & MMI Group of Institutions</span></p>
+                    <img src="/static/images/founder.jpg" alt="Founder Img" class="w-75 border rounded text-center p-2 shadow mb-3">
+                    <p class="card-text sjcet-name"><b class="sjcet-main-name-about">Rev. Fr. Dr. J. E. Arulraj</b><br><small class="text-muted">Founder & Chairman - DMI & MMI Group of Institutions</small></p>
                 </div>
                 <p class="container sjcet-text">
                 &ensp;&ensp;DMI is a union of committed women who have dedicated their lives to serve the poor and the underprivileged unconditionally. Through their services, the DMIs want to create a world where love, peace, equality, justice and brotherhood are ensured for all. The Society of Daughters of Mary Immaculate and Collaborators (DMI) was founded in the year 1984 by Rev.Fr. J.E. Arul Raj OMI, at Keechalam, a remote village in Thiruvallur District, Tamil Nadu, India.

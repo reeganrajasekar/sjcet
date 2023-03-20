@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SJCET-TNJ</title>
+  <title>Placement Contact - St. Joseph's College of Engineering and Technology (SJCET)</title>
   <link rel="stylesheet" href="/static/css/bootstrap.min.css">
   <link rel="stylesheet" href="/static/style.css">
   <script src="/static/js/moment.js"></script>
@@ -24,12 +24,12 @@
                 <h1 class="sjcet-title mb-4">Placement Contact</h1>
                 <div class="card mb-3" style="border: none;">
                     <div class="row no-gutters">
-                        <div class="col-md-4">
-                            <img src="/static/images/placement.jpeg" class="card-img shadow p-1 border" alt="...">
+                            <div class="col-md-4 text-center">
+                                <img src="/static/images/placement.jpeg" class="w-75 card-img shadow p-1 border" alt="...">
                             </div>
                             <div class="col-md-8">
                             <div class="card-body">
-                                <p class="card-text sjcet-name"><b>Mr. P. Sathis Kumar</b> <small class="text-muted">B.E., M.Tech.,(Ph.D.),</small></p>
+                                <p class="card-text sjcet-name"><b class="sjcet-main-name">Mr. P. Sathis Kumar</b> <small class="text-muted">B.E., M.Tech.,(Ph.D.),</small></p>
                                 <p class="card-text sjcet-content text-muted">Training & Placement Officer</p>
                                 <p class="card-text sjcet-name">+91 9488581589</p>
                                 <p class="card-text sjcet-name">sjcetplacement@gmail.com</p>

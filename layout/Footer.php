@@ -7,7 +7,7 @@
 </aside>
 <code>&ensp;TNEA CODE - 3825&ensp;</code>
 
-<footer class=" pt-4 mt-2 flex-shrink-0" style="background-color: #444;">
+<footer class="pt-4 mt-2 flex-shrink-0" style="background-color: #444;z-index:1000 !important">
     <div class="container">
         <div class="row gy-2 gx-5 container-fluid">
             <div class="col-lg-5 col-md-6">

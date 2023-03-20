@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SJCET-TNJ</title>
+  <title>Transport Facilities - St. Joseph's College of Engineering and Technology (SJCET)</title>
   <link rel="stylesheet" href="/static/css/bootstrap.min.css">
   <link rel="stylesheet" href="/static/style.css">
   <script src="/static/js/moment.js"></script>
@@ -23,7 +23,7 @@
             <article class="border rounded p-3">
                 <h1 class="sjcet-title">TRANSPORT FACILITIES</h1>
                 <div class="text-center my-4">
-                    <img src="/static/images/transport.jpg" alt="Sports Img" class="w-50 border rounded text-center p-2 shadow mb-3">
+                    <img src="/static/images/transport.jpg" alt="Sports Img" class="w-75 border rounded text-center p-2 shadow mb-3">
                 </div>
                 <p class="container sjcet-text">
                 &ensp;&ensp;The College has a well scheduled transport system. To cater to the needs of day scholars, College provides transportation facility for the students and staff coming from different locations of the Thanjavur, Kumbakonam, Mannargudi, Trichy, Pattukottai, Thiruvaiyaru and Pudukkottai. The Institution runs huge number of buses covering all the important points of the above mentioned locations.

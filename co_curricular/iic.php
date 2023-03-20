@@ -96,7 +96,7 @@
                         if ($result->num_rows > 0) {
                             while($row = $result->fetch_assoc()) {
                         ?>
-                            <div class="carousel-item sjcet-carousel-item active">
+                            <div class="carousel-item sjcet-carousel-item">
                                 <div class="col-md-3">
                                     <div class="card">
                                         <div class="card-img">

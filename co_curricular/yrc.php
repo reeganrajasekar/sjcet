@@ -78,8 +78,8 @@
                 <h1 class="sjcet-title mb-2">Contact</h1>
                 <div class="card mb-3" style="border: none;">
                     <div class="row no-gutters">
-                        <div class="col-md-4">
-                            <img src="/static/images/nss.jpg" class="card-img shadow p-1 border" alt="...">
+                            <div class="col-md-4 text-center">
+                                <img src="/static/images/nss.jpg" class="w-75 card-img shadow p-1 border" alt="...">
                             </div>
                             <div class="col-md-8">
                             <div class="card-body">
@@ -101,7 +101,7 @@
                         if ($result->num_rows > 0) {
                             while($row = $result->fetch_assoc()) {
                         ?>
-                            <div class="carousel-item sjcet-carousel-item active">
+                            <div class="carousel-item sjcet-carousel-item">
                                 <div class="col-md-3">
                                     <div class="card">
                                         <div class="card-img">

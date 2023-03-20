@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SJCET-TNJ</title>
+  <title>Sports - St. Joseph's College of Engineering and Technology (SJCET)</title>
   <link rel="stylesheet" href="/static/css/bootstrap.min.css">
   <link rel="stylesheet" href="/static/style.css">
   <script src="/static/js/moment.js"></script>
@@ -23,7 +23,7 @@
             <article class="border rounded p-3">
                 <h1 class="sjcet-title">SPORTS FACILITIES</h1>
                 <div class="text-center my-4">
-                    <img src="/static/images/sports.jpg" alt="Sports Img" class="w-50 border rounded text-center p-2 shadow mb-3">
+                    <img src="/static/images/sports.jpg" alt="Sports Img" class="w-75 border rounded text-center p-2 shadow mb-3">
                 </div>
                 <p class="container sjcet-text">
                 &ensp;&ensp;Education at SJCET is not confined to the courses a student selects, our endeavor is to aid in the overall development of each of our student. This includes physical fitness, mental and physical agility, team spirit and the discipline and drive required to work towards a goal, not to mention the ability to loosen up and have some fun. That’s where our extensive sports facilities fit in.

@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SJCET-TNJ</title>
+  <title>Hostel Facilities - St. Joseph's College of Engineering and Technology (SJCET)</title>
   <link rel="stylesheet" href="/static/css/bootstrap.min.css">
   <link rel="stylesheet" href="/static/style.css">
   <script src="/static/js/moment.js"></script>
@@ -23,7 +23,7 @@
             <article class="border rounded p-3">
                 <h1 class="sjcet-title">HOSTEL FACILITIES</h1>
                 <div class="text-center my-4">
-                    <img src="/static/images/hostel.jpg" alt="Sports Img" class="w-50 border rounded text-center p-2 shadow mb-3">
+                    <img src="/static/images/hostel.jpg" alt="Sports Img" class="w-75 border rounded text-center p-2 shadow mb-3">
                 </div>
                 <p class="container sjcet-text">
                 &ensp;&ensp;Full-fledged hostel facilities for boys & girls students have been established inside the campus. It also provides good and safe facilities of lodging and boarding to cater to the needs of outstation students. Hostel Students are also permitted to use their own computers in their own rooms. The mess is spacious with a dining hall and kitchen. Separate seating arrangements are made for both boys and girls. For students’ convenience, we have also included a reading hall, for students who would like to study extra hours.

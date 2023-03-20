@@ -43,12 +43,12 @@
                 <h1 class="sjcet-title mb-2">Contact</h1>
                 <div class="card mb-3" style="border: none;">
                     <div class="row no-gutters">
-                        <div class="col-md-4">
-                            <img src="/static/images/placement.jpeg" class="card-img shadow p-1 border" alt="...">
+                            <div class="col-md-4 text-center">
+                                <img src="/static/images/placement.jpeg" class="w-75 card-img shadow p-1 border" alt="...">
                             </div>
                             <div class="col-md-8">
                             <div class="card-body">
-                                <p class="card-text sjcet-name"><b>Mr. P. Sathis Kumar</b> <small class="text-muted">B.E., M.Tech.,(Ph.D.),</small></p>
+                                <p class="card-text sjcet-name"><b class="sjcet-main-name">Mr. P. Sathis Kumar</b> <small class="text-muted">B.E., M.Tech.,(Ph.D.),</small></p>
                                 <p class="card-text sjcet-content text-muted">Training & Placement Officer</p>
                                 <p class="card-text sjcet-name">+91 9488581589</p>
                                 <p class="card-text sjcet-name">sjcetplacement@gmail.com</p>
@@ -67,7 +67,7 @@
                         if ($result->num_rows > 0) {
                             while($row = $result->fetch_assoc()) {
                         ?>
-                            <div class="carousel-item sjcet-carousel-item active">
+                            <div class="carousel-item sjcet-carousel-item">
                                 <div class="col-md-3">
                                     <div class="card">
                                         <div class="card-img">
